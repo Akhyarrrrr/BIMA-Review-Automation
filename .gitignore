@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling and test cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Excel and local data files
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+~$*.xls*
+
+# Generated reports and archives
+*.pdf
+*.zip
+bima_pdf_manifest.json
+semua_komentar_reviewer.zip
+laporan_pengiriman_email.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.idea/
+.vscode/
